@@ -27,7 +27,7 @@ public class TemperaturaTanque {
         double temperatura = scanner.nextDouble();
         String resultado = evaluarTemperatura(momentoDia, temperatura, valores);
 
-    System.out.println("La temperatura del tanque de combustible se clasifica como: " + resultado +
+    System.out.println("La temperatura se clasifica como: " + resultado +
                 " para el momento del día " + momentoDia + ".");
     }
     public static String evaluarTemperatura(String momentoDia, double temperatura, double[][] valores){
